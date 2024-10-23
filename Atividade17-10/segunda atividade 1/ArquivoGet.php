@@ -23,7 +23,7 @@
             
             echo"logado com sucesso <br>";
             // Exibe a idade
-            echo "Bom saber que você " . $idade . " anos. :)";
+            echo "Bom saber que você tem " . $idade . " anos. :)";
             } else {
             echo "Data de nascimento inválida.";
             }
