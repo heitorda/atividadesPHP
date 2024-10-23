@@ -10,11 +10,12 @@
     <div class="PHP">
         <h1>
             <?php
-            $nome=$_GET["nome"] ?? "";
-            $senha=$_GET["senha"] ?? "";
-            $senha2=$_GET["senha2"] ?? "";
-            $telefone=$_GET["telefone"] ?? "";
-            $DN=$_GET["data"] ?? "";
+            // variaveis
+            $nome=$_POST["nome"] ?? "";
+            $senha=$_POST["senha"] ?? "";
+            $senha2=$_POST["senha2"] ?? "";
+            $telefone=$_POST["telefone"] ?? "";
+            $DN=$_POST["data"] ?? "";
             
                // Valida se a data de nascimento é válida
                if (strtotime($DN)) {
