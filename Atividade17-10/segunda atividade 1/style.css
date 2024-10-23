@@ -1,0 +1,22 @@
+@charset "UTF8";
+
+div{
+    background-color: rgb(192, 192, 192);
+    margin: auto;
+    width: 600px;
+    padding: 5px;
+}
+
+form{
+    margin: auto;
+    width: 350px;
+}
+
+div.PHP{
+    display: block;
+    text-align: center;
+    background-color: rgb(192, 192, 192);
+    margin: auto;
+    width: 600px;
+    padding: 5px; 
+}
