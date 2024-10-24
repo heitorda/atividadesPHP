@@ -14,7 +14,7 @@
     $estado= $_POST["estado"];
     $comentarios= $_POST["comentarios"];
     $erro= 0;
-
+// fala cusão 
     // verifica se o campo não está em branco
     if (empty($nome) or strstr ($nome, ' ') ==FALSE)
     {echo "Favor digitar seu nome corretamente. <br>"; $erro=1; }
